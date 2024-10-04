@@ -1,0 +1,50 @@
+.contactSection{
+    display: flex;
+    flex-direction: row;
+}
+.heroFormControl {
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    margin: 20px 8px;
+  }
+  .formControl {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .formControl label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #fff;
+    padding: 0 4px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .formInput{
+    padding: 10px 2px;
+    width: 100%;
+  }
+  textarea.formInput {
+    width: 100%;
+  }
+  
+  .formControl .formSubmit {
+    float: right;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 5px;
+    width: 220px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .hide{
+    display: none;
+  }
+  .show{
+    display: block;
+  }
