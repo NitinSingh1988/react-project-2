@@ -16,11 +16,12 @@ body{
   max-width: 1280px;
   margin: 0 auto;
 }
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 main.heroSection {
   display: flex;
   flex-direction: column;
@@ -59,7 +60,7 @@ ul {
 .heroButtonTop {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 26px;
 }
 .heroForm-btn {
   margin: 20px 0;
